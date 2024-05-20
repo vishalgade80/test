@@ -3,6 +3,6 @@ FROM node
 WORKDIR /testapp
 
 COPY . .
-RUN nom i
+RUN npm i
 
 CMD [ "npm","start" ]
