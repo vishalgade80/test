@@ -3,6 +3,6 @@ FROM node
 WORKDIR /testapp
 
 COPY . .
-RUN npm i
+RUN npm install
 
 CMD [ "npm","start" ]
